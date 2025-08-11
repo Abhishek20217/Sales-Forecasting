@@ -25,8 +25,25 @@ This Project analyses Walmart's historical sales data forecasts future sales tre
 * **ARIMA & SARIMAX**: Time series forecasting.
 
 ## Results
+
 **SARIMAX model** captured seasonal peaks and drops effectively, achieving an **89% forecast accuracy**.
 **Forecasted** **sales trends** for **2018–2021** highlighted critical high-demand periods for inventory planning.
 
 ## Python file
+
 <a href ="https://github.com/Abhishek20217/Sales-Forecasting/blob/main/Sales%20Forecasting.ipynb"> Viw file </a>
+
+## File Preview
+
+<img width="1352" height="627" alt="1" src="https://github.com/user-attachments/assets/8ad94f5d-5b60-4242-87cd-f627f7331370" />
+
+## Future work
+
+* Having holiday, weather, and promotional data as exogenous variables.
+* Compare SARIMAX performance against Prophet, LSTM, and XGBoost.
+* Build a real-time forecasting dashboard for operational use.
+* Conduct store-level or region-specific forecasts for granular insights.
+
+## Conclusion 
+
+This project shows the value of **time series analysis** for **retail sales forecasting**. The **SARIMAX model** provided **highly accurate predictions**, with strong stationarity confirmed by **statistical tests**, enabling informed business decisions for inventory and marketing strategies by forecasting the results for future 4 years.
